@@ -38,7 +38,7 @@ namespace Proc_Xml_Dup
                 fbd.RootFolder = Environment.SpecialFolder.Desktop;
                 DateTime date = new DateTime();
                 date = DateTime.Now;
-                fbd.SelectedPath = Global_Patch;
+                //fbd.SelectedPath = Global_Patch;
                 if (fbd.ShowDialog() == DialogResult.OK)
                 {
                     Txt_Caminho.Text = fbd.SelectedPath;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Btn_Iniciar = new System.Windows.Forms.Button();
             this.Txt_Arq = new System.Windows.Forms.TextBox();
             this.Txt_Caminho = new System.Windows.Forms.TextBox();
@@ -98,8 +99,9 @@
             this.Controls.Add(this.Txt_Caminho);
             this.Controls.Add(this.Txt_Arq);
             this.Controls.Add(this.Btn_Iniciar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Procura XML";
             this.ResumeLayout(false);
             this.PerformLayout();
 
